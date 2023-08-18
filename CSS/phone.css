@@ -1,0 +1,179 @@
+.section1_button h2,
+h1 {
+    font-size: 2rem;
+}
+
+.section1_img img {
+    height: 200px;
+}
+
+@media screen and (max-width: 760px) {
+    .section1 {
+        left: 18%;
+    }
+
+    .section1_img img {
+        height: 150px;
+    }
+
+    .section1_button {
+        left: 93%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .about_box img {
+        margin-top: 45px;
+    }
+
+    .about_box {
+        width: 80%;
+    }
+
+    .logo a {
+        font-size: 2rem;
+    }
+
+    .about_section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .logo {
+        left: 40px;
+    }
+
+    .search_area {
+        right: 55px;
+    }
+
+    .section1_img img {
+        height: 100px;
+    }
+
+    .section1_button h1 {
+        letter-spacing: 17px;
+    }
+
+    .section1_button h2,
+    h1 {
+        font-size: 1rem;
+    }
+
+    .sec1_btn {
+        width: 120px;
+        height: 35px;
+    }
+
+    .side_social_icons {
+        left: 15px;
+    }
+
+    .side_social_icons a {
+        padding: 15px 12px;
+    }
+
+    .notification_inp {
+        width: 350px;
+    }
+
+    .notification_section h2 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section1_button h1 {
+        letter-spacing: 10px;
+    }
+
+    .logo a {
+        font-size: 1rem;
+    }
+
+    .logo {
+        left: 25px;
+    }
+
+    .search_area {
+        right: 30px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .section1_img img {
+        height: 85px;
+    }
+
+    .section1_button h2,
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    .section1_button h2,
+    h1 {
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .section1_button {
+        left: 100%;
+        transform: translate(-70%, -50%);
+    }
+
+    .section1_img img {
+        height: 70px;
+    }
+
+    .sec1_btn {
+        width: 100px;
+        height: 25px;
+    }
+
+    .sec1_btn {
+        margin-top: 5px;
+    }
+
+    .products_section {
+        margin-left: 25px;
+    }
+
+    .products_section {
+        width: 100%;
+    }
+
+    .about_box h2 {
+        font-size: 30px;
+    }
+
+    .about_box h4 {
+        font-size: 20px;
+    }
+
+    .about_box p {
+        font-size: 0.9rem;
+    }
+
+    .about_box {
+        width: 100%;
+    }
+
+    .notification_inp {
+        width: 240px;
+        height: 55px;
+    }
+
+    .product_box img {
+        height: 115px;
+    }
+
+    .notification_section {
+        margin-left: 20px;
+    }
+}
